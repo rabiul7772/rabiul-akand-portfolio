@@ -10,7 +10,7 @@ const Hero = () => {
         <div className="max-w-4xl mx-auto text-center">
           <div className="  mb-8 relative">
             <img
-              src="./public/portfolio-image.png"
+              src="/portfolio-image.png"
               alt="Profile"
               className=" z-10 relative w-48 h-48 rounded-full mx-auto border-4 border-[#0ea5e9] shadow-lg shadow-[#0ea5e9]/20"
             />
@@ -81,7 +81,7 @@ const Hero = () => {
             {/* Buttons */}
             <div className="flex flex-col sm:flex-row gap-4">
               <a
-                href="https://drive.google.com/file/d/1Syg6338p3StM5d0k6dDjBflvwJi4sxG8/view?usp=drive_link"
+                href="https://drive.google.com/file/d/1HgRTm3snKu7EJ2PXs2FfYI30RZQPLG11/view?usp=drive_link"
                 target="_blank"
               >
                 <button className="px-6 py-3 bg-gradient-to-r from-[#0ea5e9] to-[#38bdf8] rounded-full hover:opacity-90 transition-opacity shadow-lg shadow-[#0ea5e9]/20">

@@ -130,7 +130,7 @@ const Navbar = () => {
                 </svg>
               </a>
               <a
-                href="https://drive.google.com/file/d/1Syg6338p3StM5d0k6dDjBflvwJi4sxG8/view?usp=drive_link"
+                href="https://drive.google.com/file/d/1HgRTm3snKu7EJ2PXs2FfYI30RZQPLG11/view?usp=drive_link"
                 target="_blank"
               >
                 <button className="px-4 text-sm py-2 bg-[#1D9BF0] text-white rounded-3xl hover:bg-[#1D9BF0]/80 transition-colors">
