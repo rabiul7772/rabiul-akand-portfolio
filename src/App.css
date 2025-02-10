@@ -1,0 +1,64 @@
+/* Custom styles */
+.skill-card {
+  @apply bg-[#2a2f35] p-6 rounded-xl text-center transform hover:scale-105 transition-all duration-300;
+  box-shadow: 0 0 20px rgba(14, 165, 233, 0.1);
+}
+
+.skill-card:hover {
+  box-shadow: 0 0 30px rgba(14, 165, 233, 0.2);
+}
+
+.project-card {
+  @apply bg-[#2a2f35] rounded-xl overflow-hidden transition-all duration-300;
+  box-shadow: 0 0 20px rgba(14, 165, 233, 0.1);
+}
+
+.project-card:hover {
+  box-shadow: 0 0 30px rgba(14, 165, 233, 0.2);
+  transform: translateY(-5px);
+}
+
+.social-icon {
+  @apply w-12 h-12 bg-[#2a2f35] rounded-full flex items-center justify-center hover:bg-[#0ea5e9] transition-all duration-300;
+  box-shadow: 0 0 15px rgba(14, 165, 233, 0.1);
+}
+
+/* Form styles */
+.form-group {
+  @apply relative;
+}
+
+.form-label {
+  @apply absolute -top-2 left-6 px-2 text-sm font-bold bg-[#15202B];
+  color: #ffffff;
+  font-weight: 700;
+  text-shadow: 0 0 1px rgba(255, 255, 255, 0.5);
+}
+
+.form-input {
+  @apply w-full bg-[#15202B] border border-white/60 rounded-full py-3 px-6 text-sm text-white focus:outline-none focus:border-[#0ea5e9] transition-all duration-300;
+}
+
+textarea.form-input {
+  @apply rounded-3xl py-4;
+}
+
+.form-input::placeholder {
+  @apply text-gray-500;
+}
+
+.form-input:focus + .form-label,
+.form-input:not(:placeholder-shown) + .form-label {
+  @apply text-[#0ea5e9] font-bold;
+}
+
+.send-button {
+  @apply flex items-center justify-center px-8 py-2.5 bg-[#0ea5e9] text-white rounded-full hover:bg-[#0ea5e9]/80 transition-all duration-300 text-sm mt-2;
+}
+
+/* Gradient text effect */
+.gradient-text {
+  @apply bg-clip-text text-transparent bg-gradient-to-r from-[#0ea5e9] to-[#38bdf8];
+}
+
+
