@@ -85,7 +85,7 @@ const Hero = () => {
                 target="_blank"
               >
                 <button className="px-6 py-3 bg-gradient-to-r from-[#0ea5e9] to-[#38bdf8] rounded-full hover:opacity-90 transition-opacity shadow-lg shadow-[#0ea5e9]/20">
-                  ⬇️ Resume
+                  Resume
                 </button>
               </a>
               <a href="#contact">
