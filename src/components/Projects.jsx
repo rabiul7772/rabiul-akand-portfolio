@@ -1,19 +1,18 @@
 const Projects = () => {
   const projects = [
     {
-      title: 'Banking Application',
-      image: '/bankist.png',
-      tech: ['JavaScript', 'CSS Animation', 'HTML'],
-      github:
-        'https://github.com/rabiul7772/Bankist_complete_project/tree/main',
-      demo: 'https://bankist-complete.netlify.app/'
+      title: 'Cabin Booking App',
+      image: '/wildoasis.png',
+      tech: ['Next.js', 'Supabase', 'Tailwind CSS', 'NextAuth.js'],
+      github: 'https://github.com/rabiul7772/The-wild-oasis-customer-website',
+      demo: 'https://the-wild-oasis-customer-website-rabiul.vercel.app/'
     },
     {
-      title: 'Food Ordering App',
-      image: '/omnifood.png',
-      tech: ['HTML', 'CSS', 'JavaScript', 'Responsive Design'],
-      github: 'https://github.com/rabiul7772/Omnifood/tree/main',
-      demo: 'https://omnifood-rabiul.netlify.app/'
+      title: 'Pizza Ordering App',
+      image: '/fastreactpizza.png',
+      tech: ['React.js', 'Redux Toolkit', 'React Router', 'Tailwind CSS'],
+      github: 'https://github.com/rabiul7772/fast-react-pizza',
+      demo: 'https://fast-react-pizza-rabiul.vercel.app/'
     },
     {
       title: 'A Recipe Application',
@@ -22,13 +21,12 @@ const Projects = () => {
       github: 'https://github.com/rabiul7772/Forkify_Project',
       demo: 'https://forkify-rabiul.netlify.app/'
     },
-
     {
-      title: 'Workout Tracking App',
-      image: '/mapty.png',
-      tech: ['JavaScript', 'OOP', 'Geolocation API'],
-      github: 'https://github.com/rabiul7772/mapty_project',
-      demo: 'https://mapty-rabiul.netlify.app/'
+      title: 'Food Ordering App',
+      image: '/omnifood.png',
+      tech: ['HTML', 'CSS', 'JavaScript', 'Responsive Design'],
+      github: 'https://github.com/rabiul7772/Omnifood/tree/main',
+      demo: 'https://omnifood-rabiul.netlify.app/'
     }
   ];
 

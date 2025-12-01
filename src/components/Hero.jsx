@@ -16,7 +16,9 @@ const Hero = () => {
             />
             <div className=" z-0 absolute inset-0 rounded-full bg-gradient-to-r from-[#0ea5e9] to-[#38bdf8] opacity-5 animate-pulse"></div>
           </div>
-          <h1 className="text-3xl text-white font-bold mb-6">Rabiul Akand</h1>
+          <h1 className="text-3xl text-white font-bold mb-6">
+            Md. Rabiul Akand
+          </h1>
 
           <div className="text-xl md:text-2xl text-[#0ea5e9] mb-8">
             <TypeAnimation
@@ -37,9 +39,9 @@ const Hero = () => {
             />
           </div>
           <p className="text-lg  text-gray-300 mb-8 max-w-2xl mx-auto">
-            Hello! I&apos;m Rabiul Akand, a passionate Full-Stack web developer
-            with hands-on experience in building modern and responsive web
-            applications using React.js, Next.js, HTML, CSS, JavaScript,
+            Hello! I&apos;m Md. Rabiul Akand, a passionate Full-Stack web
+            developer with hands-on experience in building modern and responsive
+            web applications using Next.js, React.js, TypeScript, JavaScript,
             TailwindCSS, and more. I specialize in transforming ideas into
             digital solutions. Let&apos;s work together to take your business to
             the next level and achieve your goals!
@@ -81,7 +83,7 @@ const Hero = () => {
             {/* Buttons */}
             <div className="flex flex-col sm:flex-row gap-4">
               <a
-                href="https://drive.google.com/file/d/1HgRTm3snKu7EJ2PXs2FfYI30RZQPLG11/view?usp=drive_link"
+                href="https://drive.google.com/file/d/1nTLhM1QvNsUCfEh18CzLN6FXFBDCHABa/view?usp=sharing"
                 target="_blank"
               >
                 <button className="px-6 py-3 bg-gradient-to-r from-[#0ea5e9] to-[#38bdf8] rounded-full hover:opacity-90 transition-opacity shadow-lg shadow-[#0ea5e9]/20">

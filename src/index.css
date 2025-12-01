@@ -96,7 +96,3 @@ body {
 .skill-card img {
   filter: drop-shadow(0 0 10px rgba(29, 155, 240, 0.6));
 }
-
-html {
-  scroll-behavior: smooth; /* Enables smooth scrolling */
-}
